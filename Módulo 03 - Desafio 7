@@ -1,0 +1,17 @@
+const readline = require('readline-sync');
+
+
+const numbers = readline.question("Escolha um número inteiro de 1 até 10: ");
+
+var frases = ["Faça sempre o seu melhor!", 
+                "Sempre acredite que o melhor possa ser feito!", 
+                "Não espere, ponha em prática!",
+                "Mesmo que pareça difícil, não pare!",
+                "Só trabalhando é possível trilhar o caminho!",
+                "Tenha coragem de enfrentar seus medos!",
+                "Descubra quem você realmente é…",
+                "E so acreditar!",
+                "Para se inspirar, basta sonhar",
+                "Não espere, aja"];
+
+console.log(frases [numbers])
